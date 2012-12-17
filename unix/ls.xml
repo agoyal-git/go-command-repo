@@ -7,5 +7,6 @@ moreinfo: http://www.hypexr.org/linux_scp_help.php
 keywords: scp, cp, copy, ftp
 -->
 <exec command="/bin/bash">
-    <arg>-c "ls -alth"</arg>
+    <arg>-c</arg>
+    <arg>ls -alth</arg>
 </exec>
